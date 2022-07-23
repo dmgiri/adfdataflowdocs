@@ -1,0 +1,7 @@
+{
+	"name": "YuwarajIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Local Machine of Yuwaraj"
+	}
+}

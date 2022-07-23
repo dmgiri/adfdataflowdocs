@@ -1,0 +1,17 @@
+{
+	"name": "D_DestinationDataset_5uz",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AZ_SqlServerpoo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Persons"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

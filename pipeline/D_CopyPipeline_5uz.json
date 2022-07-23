@@ -1,0 +1,56 @@
+{
+	"name": "D_CopyPipeline_5uz",
+	"properties": {
+		"activities": [
+			{
+				"name": "Local_To_Azure_Copy_5uz",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "dbo.Persons"
+					},
+					{
+						"name": "Destination",
+						"value": "dbo.Persons"
+					}
+				],
+				"typeProperties": {
+					"source": {
+						"type": "SqlServerSource",
+						"partitionOption": "None"
+					},
+					"sink": {
+						"type": "SqlServerSink",
+						"tableOption": "autoCreate"
+					},
+					"enableStaging": false,
+					"validateDataConsistency": false
+				},
+				"inputs": [
+					{
+						"referenceName": "D_SourceDataset_5uz",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "D_DestinationDataset_5uz",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-07-11T09:37:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

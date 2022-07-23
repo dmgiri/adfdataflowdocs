@@ -1,0 +1,17 @@
+{
+	"name": "D_SourceDataset_5uz",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "D_SqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Persons"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

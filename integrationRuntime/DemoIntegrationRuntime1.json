@@ -1,0 +1,7 @@
+{
+	"name": "DemoIntegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Connect Local to Azure using Integration runtime."
+	}
+}

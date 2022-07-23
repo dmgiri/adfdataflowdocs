@@ -1,0 +1,9 @@
+{
+	"name": "glukdatfac",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1b4c277e-886d-49a6-85f9-550d3f3cc4ea",
+		"tenantId": "ec4f4a9d-3f05-4873-800d-047f935acde0"
+	}
+}

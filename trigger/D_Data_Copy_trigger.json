@@ -1,0 +1,24 @@
+{
+	"name": "D_Data_Copy_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "D_CopyPipeline_5uz",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2022-07-11T09:41:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
