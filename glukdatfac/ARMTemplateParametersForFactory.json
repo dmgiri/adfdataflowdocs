@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "glukdatfac"
+		},
+		"AZ_SqlServerpoo_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"DAzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"DAzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"D_SqlServer_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_connectionString": {
+			"value": ""
+		},
+		"linkedService1_accountKey": {
+			"value": ""
+		},
+		"linkedService2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://glukstoacc.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://glukstoacc.dfs.core.windows.net/"
+		},
+		"DAzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://glukstoacc.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "AzureAD\\YuwarajShinde"
+		},
+		"linkedService1_properties_typeProperties_url": {
+			"value": "https://glukstoacc.dfs.core.windows.net/"
+		}
+	}
+}
