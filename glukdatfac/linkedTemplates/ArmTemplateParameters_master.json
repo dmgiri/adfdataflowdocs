@@ -14,7 +14,13 @@
 		"AzureDataLakeStorage2_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureTableStorage1_connectionString": {
 			"value": ""
 		},
 		"DAzureBlobStorage1_connectionString": {
@@ -45,6 +51,9 @@
 			"value": "https://glukstoacc.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://glukstoacc.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
 			"value": "https://glukstoacc.dfs.core.windows.net/"
 		},
 		"DAzureDataLakeStorage2_properties_typeProperties_url": {
